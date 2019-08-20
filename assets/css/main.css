@@ -8,6 +8,9 @@
 */
 
 
+.sub{
+	text-align: center;
+}
 
 .leftimg{
 	display: inline-block;
@@ -59,11 +62,13 @@ hr{
 }
 
 .art1{
-	background-color: #CCD1D1;
+	background-color:#889ba6;
+	 /* #CCD1D1; */
 }
 
 .art2{
-	background-color: whitesmoke;
+	background-color: #cbdce7;
+	/* whitesmoke; */
 }
 
 html, body, div, span, applet, object,
@@ -2660,9 +2665,9 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
+		/* .image img {
 			display: block;
-		}
+		} */
 
 		.image.left, .image.right {
 			max-width: 50%;
@@ -3833,11 +3838,12 @@ input, select, textarea {
 	}
 
 		#main > * {
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 2rem 1rem 2rem ;
 			border-top: solid 2px #eeeeee;
 			margin: 0;
 		}
 
+	
 			#main > *:first-child {
 				border-top: 0;
 			}
