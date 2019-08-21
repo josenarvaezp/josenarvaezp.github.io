@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		{% include head.html %}
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				{% include nav.html %}
+                    
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Jose Narvaez</h2>
+                            <p>My personal website</p>
+                            <div class="box alt">
+                                    <div class="row gtr-50 gtr-uniform">
+                                        <div class="col-4 container">
+                                            <span class="image fit"><a href="software.html"><img src="images/code.jpg" alt="" /><div class="centered">Software</div></span></a>
+                                        </div>
+                                        <div class="col-4 container">
+                                            <span class="image fit"><a href="fencing.html"><img  src="images/fencing.jpg" alt="" /><div class="centered">Fencing</div></span></a>
+                                        </div>
+                                        <div class="col-4 container">
+                                            <span class="image fit"><a href="cv.html"><img  src="images/cv.png" alt="" /><div class="centered cvthumbnail">CV</div></span></a>
+                                        </div>
+                                    </div>
+                            </div>
+							
+						</div>
+                    </section>
+
+                    
+
+				{{content}}
+
+				<!-- Footer -->
+					<footer id="footer">
+                            {% include footer.html %}
+						
+					</footer>
+
+			</div>
+
+        <!-- Scripts -->
+        {% include jsLinks.html %}
+			
+	</body>
+</html>

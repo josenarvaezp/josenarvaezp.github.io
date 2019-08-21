@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		{% include head.html %}
+    </head>
+    
+	<body class="is-preload">
+
+    <!-- Page Wrapper -->
+        <div id="page-wrapper">
+
+            <!-- Header -->
+			{% include nav.html %}
+
+            <!-- Main -->
+                
+                {{content}}
+
+            <!-- Footer -->
+                <footer id="footer">
+                    {% include footer.html %}
+
+                </footer>
+            <!-- Scripts -->
+            {% include jsLinks.html %}
+
+        </div>
+    </body>
+</html>
