@@ -1,9 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		{% include head.html %}
+		<title>Jose Narvaez</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- icons -->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
 	</head>
-	<body class="landing is-preload">
+		<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -11,7 +19,22 @@
 				<header id="header" class="alt">
 					<h1><a href="index.html">Jose Narvaez</a></h1>
 				
-					{% include nav.html %}
+					<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="pages/software.html">Software</a></li>
+											<li><a href="pages/cv.html">CV</a></li>
+											<li><a href="pages/fencing.html">Fencing</a></li>
+											<li><a href="pages/contact.html">Contact</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
 				</header>
     
 				{{content}}
@@ -24,8 +47,15 @@
 
 			</div>
 
-        <!-- Scripts -->
-        {% include jsLinks.html %}
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
 			
 	</body>
 </html>
