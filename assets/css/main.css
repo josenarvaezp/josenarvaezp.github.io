@@ -26,7 +26,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-font-size: 2rem;
+font-size: 3rem;
 }
 .cvthumbnail{
 	color:black;
@@ -62,6 +62,15 @@ font-size: 2rem;
 		rgba(0, 0, 0, 0.5),
 		rgba(0, 0, 0, 0.5)
 	  ), url("../../images/cvimg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.pageTitleExperience{
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	  ), url("../../images/experience.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -2068,6 +2077,14 @@ input, select, textarea {
 		padding: 1.5em;
 	}
 
+	.box2 {
+		border-radius: 3px;
+		border: solid 2px #fff;
+		margin-bottom: 2em;
+		margin:2em;
+		padding: 1.5em;
+	}
+
 		.box > :last-child,
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
@@ -2075,6 +2092,12 @@ input, select, textarea {
 		}
 
 		.box.alt {
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+
+		.box2.alt {
 			border: 0;
 			border-radius: 0;
 			padding: 0;
@@ -3650,7 +3673,7 @@ input, select, textarea {
 		justify-content: center;
 		cursor: default;
 		height: 100vh;
-		min-height: 35em;
+		min-height: 55em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
